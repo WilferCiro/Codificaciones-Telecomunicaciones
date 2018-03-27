@@ -222,6 +222,7 @@ Santiago Mejía Oquendo</property>
       </object>
       <packing>
         <property name="submenu">main</property>
+        <property name="position">1</property>
       </packing>
     </child>
   </object>
@@ -244,7 +245,7 @@ Santiago Mejía Oquendo</property>
             <property name="margin_bottom">10</property>
             <property name="homogeneous">True</property>
             <child>
-              <object class="GtkLabel">
+              <object class="GtkLabel" id="wordLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="label" translatable="yes">Word (3 char)</property>
@@ -427,7 +428,7 @@ Santiago Mejía Oquendo</property>
           <object class="GtkLabel" id="Title">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Canal Codification</property>
+            <property name="label" translatable="yes">Chanel Codification</property>
           </object>
         </child>
         <child>
@@ -446,6 +447,7 @@ Santiago Mejía Oquendo</property>
           </object>
           <packing>
             <property name="pack_type">end</property>
+            <property name="position">1</property>
           </packing>
         </child>
       </object>
